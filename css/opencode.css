@@ -1,0 +1,21 @@
+/*
+* Open Code
+*
+* Colours:
+* Red: #c13832;
+* Paper: #d7d3c8;
+* Grey: #4d4e53;
+*/
+
+body {
+  background-color: #f2f2f2;
+  color: #4d4e53;
+}
+
+.header {
+  text-align: center;
+  margin-top: 10em;
+}
+.title {
+  color: #c13832;
+}
