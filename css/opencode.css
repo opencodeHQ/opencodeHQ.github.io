@@ -14,8 +14,9 @@ body {
 
 .header {
   text-align: center;
-  margin-top: 10em;
+  margin-top: 14rem;
 }
 .title {
   color: #c13832;
+  margin-bottom: 4rem;
 }
