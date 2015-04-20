@@ -14,7 +14,7 @@ body {
 
 .header {
   text-align: center;
-  margin-top: 6rem;
+  margin-top: 4rem;
 }
 .header .first {
   text-align: left;
@@ -25,6 +25,9 @@ body {
 .title {
   color: #c13832;
   margin-bottom: 4rem;
+}
+.strapline {
+  margin-bottom: 2em;
 }
 
 .contact {
