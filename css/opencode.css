@@ -48,6 +48,7 @@ h6 {
   margin-bottom: 1rem;
 }
 
+/* Primary button style */
 .button.button-primary {
   background-color: #c13832;
   border-color: white;
@@ -60,6 +61,28 @@ h6 {
   border-color: #c13832;
   color: #c13832;
 }
+
+/* Secondary button style */
+.button.button-secondary {
+  /*background-color: white;*/
+  border-color: transparent;
+  color: #4d4e53;
+  fill: white;
+  transition: width 0.1s, background-color 1s, border-color 1s;
+}
+.button.button-secondary:hover {
+  background-color: white;
+  border-color: white;
+  /*color: white;*/
+}
+
+.button[class^="contact__"] {
+  margin-right: 1.7em;
+}
+.button[class^="contact__"]:last-child {
+  margin-right: 0;
+}
+
 .value-icon {
   margin: 0 0.6rem -0.6rem -0.8rem;
   fill: white !important;
