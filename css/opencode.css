@@ -16,18 +16,15 @@ body {
   text-align: center;
   margin-top: 4rem;
 }
-.header .first {
-  text-align: left;
-}
-.header .last {
-  text-align: right;
-}
 .title {
   color: #c13832;
   margin-bottom: 4rem;
 }
 .strapline {
-  margin-bottom: 2em;
+  margin-bottom: 0em;
+}
+.heading {
+  text-align: center;
 }
 
 .contact {
