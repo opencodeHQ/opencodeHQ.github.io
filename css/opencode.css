@@ -18,17 +18,29 @@ body {
 }
 .title {
   color: #c13832;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 .strapline {
   margin-bottom: 0em;
 }
+@media (max-width: 550px) {
+  .strapline {
+    font-size: 2.2rem;
+  }
+}
 .heading {
-  text-align: center;
+  text-align: left;
+  border-bottom: 1px solid #d7d3c8;
+  padding-bottom: 0.5em;
 }
 
 .contact {
   text-align: center;
+}
+@media (min-width: 769px) {
+  .contact__cta {
+    display: none;
+  }
 }
 .contact .button {
   transition: width 2s, background-color 2s, border-color 2s;
