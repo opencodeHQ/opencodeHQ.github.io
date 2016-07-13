@@ -12,6 +12,17 @@ body {
   color: #4d4e53;
 }
 
+a {
+  -webkit-transition: color .5s linear;
+  -moz-transition: color .5s linear;
+  -ms-transition: color .5s linear;
+  -o-transition: color .5s linear;
+  transition: color .5s linear;
+}
+a:hover, a:focus {
+  color: #c13832;
+}
+
 .header {
   text-align: center;
   margin-top: 4rem;
