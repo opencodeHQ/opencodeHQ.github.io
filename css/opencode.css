@@ -94,8 +94,8 @@ h6 {
   transition: width 0.1s, background-color 1s, border-color 1s;
 }
 .button.button-secondary:hover {
-  background-color: white;
-  border-color: white;
+  background-color: transparent;
+  border-color: transparent;
   /*color: white;*/
 }
 
